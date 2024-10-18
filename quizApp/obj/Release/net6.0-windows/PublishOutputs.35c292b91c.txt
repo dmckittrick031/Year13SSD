@@ -1,0 +1,5 @@
+\\storage.legacy.whsict.net\homedrives$\dmckittrick031\Desktop\quizApp.exe
+\\storage.legacy.whsict.net\homedrives$\dmckittrick031\Desktop\quizApp.dll
+\\storage.legacy.whsict.net\homedrives$\dmckittrick031\Desktop\quizApp.deps.json
+\\storage.legacy.whsict.net\homedrives$\dmckittrick031\Desktop\quizApp.runtimeconfig.json
+\\storage.legacy.whsict.net\homedrives$\dmckittrick031\Desktop\quizApp.pdb
