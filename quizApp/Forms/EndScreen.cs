@@ -17,7 +17,7 @@ namespace quizApp
         {
             try
             {
-                using (BinaryWriter bw = new(File.Open(@"C:\Users\User\Documents\quizApp\Saves\scores.bin", FileMode.Create)))
+                using (BinaryWriter bw = new(File.Open(@"U:\Documents\saveTo\scores.bin", FileMode.Create)))
                 {
                     bw.Write(GameScreen._quiz.Player.Score);
                 }
