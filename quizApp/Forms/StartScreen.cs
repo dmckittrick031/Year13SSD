@@ -28,7 +28,7 @@ namespace quizApp
         {
             try
             {
-                using (BinaryReader br = new(File.Open(@"C:\Users\User\Documents\quizApp\Saves\scores.bin", FileMode.Open)))
+                using (BinaryReader br = new(File.Open(@"U:\Documents\saveTo\scores.bin", FileMode.Open)))
                 {
                     int pos = 0;
                     int length = (int)br.BaseStream.Length;
