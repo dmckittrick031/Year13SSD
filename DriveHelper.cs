@@ -1,3 +1,8 @@
+using System.ComponentModel;
+using System.Drawing.Drawing2D;
+using System.Drawing.Printing;
+using System.Runtime.InteropServices;
+
 public class DriveHelper
 {
     [DllImport("winmm.dll", EntryPoint = "mciSendStringA", CharSet = CharSet.Ansi)]
