@@ -8,13 +8,13 @@ namespace AdventForm
 {
     public partial class RoundedButton : Button
     {
-        [Description("Changes the color of the panel."), Category("Appearance")]
+        [Description("Changes the color of the button."), Category("Appearance")]
         public Color PanelColor { get; set; }
 
-        [Description("Toggles a glassy effect on the panel."), Category("Appearance")]
+        [Description("Toggles a glassy effect on the button."), Category("SFX")]
         public bool Glass { get; set; }
 
-        [Description("Changes the radius of the panel's corners."), Category("Appearance")]
+        [Description("Changes the radius of the button's corners."), Category("Appearance")]
         public int Radius
         {
             get
