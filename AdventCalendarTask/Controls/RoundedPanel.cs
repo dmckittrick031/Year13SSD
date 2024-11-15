@@ -11,7 +11,7 @@ namespace AdventForm
         [Description("Changes the color of the panel."), Category("Appearance")]
         public Color PanelColor { get; set; }
 
-        [Description("Toggles a glassy effect on the panel."), Category("Appearance")]
+        [Description("Toggles a glassy effect on the panel."), Category("SFX")]
         public bool Glass { get; set; }
 
         [Description("Changes the radius of the panel's corners."), Category("Appearance")]
