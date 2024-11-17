@@ -1,6 +1,6 @@
 ﻿namespace AdventCalendarTask.Forms
 {
-    partial class LoginScreen
+    partial class RegisterScreen
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterScreen));
             rpnlLogin = new AdventForm.RoundedPanel();
-            lblHighscore = new Label();
             cbShowPass = new CheckBox();
-            rbtnLogin = new AdventForm.RoundedButton();
+            rbtnRegister = new AdventForm.RoundedButton();
             rpnlPassword = new AdventForm.RoundedPanel();
             tbPassword = new TextBox();
             rpnlUsername = new AdventForm.RoundedPanel();
             tbUsername = new TextBox();
-            lblLogin = new Label();
             lblRegister = new Label();
+            lblLogin = new Label();
             rpnlLogin.SuspendLayout();
             rpnlPassword.SuspendLayout();
             rpnlUsername.SuspendLayout();
@@ -49,12 +49,11 @@
             rpnlLogin.BackColor = Color.FromArgb(53, 97, 68);
             rpnlLogin.BorderColor = Color.Red;
             rpnlLogin.BorderSize = 0;
-            rpnlLogin.Controls.Add(lblHighscore);
             rpnlLogin.Controls.Add(cbShowPass);
-            rpnlLogin.Controls.Add(rbtnLogin);
+            rpnlLogin.Controls.Add(rbtnRegister);
             rpnlLogin.Controls.Add(rpnlPassword);
             rpnlLogin.Controls.Add(rpnlUsername);
-            rpnlLogin.Controls.Add(lblLogin);
+            rpnlLogin.Controls.Add(lblRegister);
             rpnlLogin.ForeColor = Color.White;
             rpnlLogin.Glass = false;
             rpnlLogin.Location = new Point(317, 56);
@@ -63,17 +62,6 @@
             rpnlLogin.Radius = 50;
             rpnlLogin.Size = new Size(254, 335);
             rpnlLogin.TabIndex = 0;
-            // 
-            // lblHighscore
-            // 
-            lblHighscore.AutoSize = true;
-            lblHighscore.Font = new Font("Bahnschrift", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            lblHighscore.Location = new Point(22, 119);
-            lblHighscore.Name = "lblHighscore";
-            lblHighscore.Size = new Size(74, 14);
-            lblHighscore.TabIndex = 5;
-            lblHighscore.Text = "lblHighscore";
-            lblHighscore.Visible = false;
             // 
             // cbShowPass
             // 
@@ -91,24 +79,24 @@
             cbShowPass.CheckedChanged += cbShowPass_CheckedChanged;
             cbShowPass.Paint += OnPaint;
             // 
-            // rbtnLogin
+            // rbtnRegister
             // 
-            rbtnLogin.BackColor = Color.White;
-            rbtnLogin.BorderColor = Color.Transparent;
-            rbtnLogin.BorderSize = 0;
-            rbtnLogin.FlatStyle = FlatStyle.Flat;
-            rbtnLogin.Font = new Font("Bahnschrift", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            rbtnLogin.ForeColor = Color.DimGray;
-            rbtnLogin.Glass = false;
-            rbtnLogin.Location = new Point(22, 274);
-            rbtnLogin.Name = "rbtnLogin";
-            rbtnLogin.PanelColor = Color.Empty;
-            rbtnLogin.Radius = 10;
-            rbtnLogin.Size = new Size(208, 40);
-            rbtnLogin.TabIndex = 3;
-            rbtnLogin.Text = "Log In";
-            rbtnLogin.UseVisualStyleBackColor = false;
-            rbtnLogin.Click += rbtnLogin_Click;
+            rbtnRegister.BackColor = Color.White;
+            rbtnRegister.BorderColor = Color.Transparent;
+            rbtnRegister.BorderSize = 0;
+            rbtnRegister.FlatStyle = FlatStyle.Flat;
+            rbtnRegister.Font = new Font("Bahnschrift", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            rbtnRegister.ForeColor = Color.DimGray;
+            rbtnRegister.Glass = false;
+            rbtnRegister.Location = new Point(22, 274);
+            rbtnRegister.Name = "rbtnRegister";
+            rbtnRegister.PanelColor = Color.Empty;
+            rbtnRegister.Radius = 10;
+            rbtnRegister.Size = new Size(208, 40);
+            rbtnRegister.TabIndex = 3;
+            rbtnRegister.Text = "Register";
+            rbtnRegister.UseVisualStyleBackColor = false;
+            rbtnRegister.Click += rbtnRegister_Click;
             // 
             // rpnlPassword
             // 
@@ -161,46 +149,46 @@
             tbUsername.Size = new Size(205, 20);
             tbUsername.TabIndex = 0;
             // 
-            // lblLogin
-            // 
-            lblLogin.AutoSize = true;
-            lblLogin.Font = new Font("Bahnschrift", 48F, FontStyle.Regular, GraphicsUnit.Point);
-            lblLogin.Location = new Point(22, 34);
-            lblLogin.Name = "lblLogin";
-            lblLogin.Size = new Size(211, 77);
-            lblLogin.TabIndex = 0;
-            lblLogin.Text = "Log In";
-            lblLogin.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // lblRegister
             // 
             lblRegister.AutoSize = true;
-            lblRegister.BackColor = Color.Transparent;
-            lblRegister.Dock = DockStyle.Bottom;
-            lblRegister.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            lblRegister.ForeColor = Color.PaleGreen;
-            lblRegister.Location = new Point(0, 410);
+            lblRegister.Font = new Font("Bahnschrift", 38F, FontStyle.Regular, GraphicsUnit.Point);
+            lblRegister.Location = new Point(20, 34);
             lblRegister.Name = "lblRegister";
-            lblRegister.Padding = new Padding(0, 0, 0, 3);
-            lblRegister.Size = new Size(112, 40);
-            lblRegister.TabIndex = 1;
+            lblRegister.Size = new Size(218, 62);
+            lblRegister.TabIndex = 0;
             lblRegister.Text = "Register";
-            lblRegister.Click += lblRegister_Click;
+            lblRegister.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // LoginScreen
+            // lblLogin
+            // 
+            lblLogin.AutoSize = true;
+            lblLogin.BackColor = Color.Transparent;
+            lblLogin.Dock = DockStyle.Bottom;
+            lblLogin.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            lblLogin.ForeColor = Color.PaleGreen;
+            lblLogin.Location = new Point(0, 410);
+            lblLogin.Name = "lblLogin";
+            lblLogin.Padding = new Padding(0, 0, 0, 3);
+            lblLogin.Size = new Size(91, 40);
+            lblLogin.TabIndex = 1;
+            lblLogin.Text = "Log In";
+            lblLogin.Click += lblLogin_Click;
+            // 
+            // RegisterScreen
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(53, 97, 68);
-            BackgroundImage = Properties.Resources.bgBlurred;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
-            Controls.Add(lblRegister);
+            Controls.Add(lblLogin);
             Controls.Add(rpnlLogin);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
-            Name = "LoginScreen";
-            Text = "LoginScreen";
+            Name = "RegisterScreen";
+            Text = "LoginScreen1";
             WindowState = FormWindowState.Maximized;
             Load += LoginScreen_Load;
             rpnlLogin.ResumeLayout(false);
@@ -216,14 +204,13 @@
         #endregion
 
         private AdventForm.RoundedPanel rpnlLogin;
-        private Label lblLogin;
+        private Label lblRegister;
         private AdventForm.RoundedPanel rpnlPassword;
         private AdventForm.RoundedPanel rpnlUsername;
         private TextBox tbUsername;
         private TextBox tbPassword;
-        private AdventForm.RoundedButton rbtnLogin;
-        private Label lblRegister;
+        private AdventForm.RoundedButton rbtnRegister;
+        private Label lblLogin;
         private CheckBox cbShowPass;
-        private Label lblHighscore;
     }
 }

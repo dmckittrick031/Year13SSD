@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "McZI2FNmo21Rpg4wnjGSQR2eFBujV7f9I9tB+SiusKema3TMRmJyBF3yXSOH2hm+s4lW6mBk+ZiJ2WfwJ0u3ig==",
+  "dgSpecHash": "4njatB/KSw4=",
   "success": true,
-  "projectFilePath": "\\\\storage.legacy.whsict.net\\homedrives$\\dmckittrick031\\Pictures\\ssd\\AdventCalendarTask\\AdventCalendarTask.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\Desktop\\AdventCalendarTask\\AdventCalendarTask.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.35\\microsoft.windowsdesktop.app.ref.6.0.35.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.35\\microsoft.netcore.app.ref.6.0.35.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.35\\microsoft.aspnetcore.app.ref.6.0.35.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.35\\microsoft.netcore.app.host.win-x64.6.0.35.nupkg.sha512"
+  ],
   "logs": []
 }

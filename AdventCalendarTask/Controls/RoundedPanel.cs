@@ -63,7 +63,6 @@ namespace AdventForm
 
         public RoundedPanel()
         {
-            this.DoubleBuffered = true;
             this.BorderStyle = BorderStyle.None;
             this.Size = new(150, 40);
             this.BackColor = Color.Gainsboro;

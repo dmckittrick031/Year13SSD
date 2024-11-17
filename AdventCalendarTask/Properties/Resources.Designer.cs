@@ -63,6 +63,16 @@ namespace AdventCalendarTask.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bgBlurred {
+            get {
+                object obj = ResourceManager.GetObject("bgBlurred", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap christmasBGBlurred {
             get {
                 object obj = ResourceManager.GetObject("christmasBGBlurred", resourceCulture);
