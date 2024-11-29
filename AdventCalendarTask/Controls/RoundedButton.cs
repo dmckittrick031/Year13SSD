@@ -1,4 +1,4 @@
-﻿using System.ComponentModel;
+using System.ComponentModel;
 using System.Drawing.Drawing2D;
 using System.Drawing.Printing;
 using System.Runtime.InteropServices;
@@ -9,7 +9,7 @@ namespace AdventForm
     public partial class RoundedButton : Button
     {
         [Description("Changes the color of the button."), Category("Appearance")]
-        public Color PanelColor { get; set; }
+        public Color ButtonColor { get; set; }
 
         [Description("Toggles a glassy effect on the button."), Category("SFX")]
         public bool Glass { get; set; }
